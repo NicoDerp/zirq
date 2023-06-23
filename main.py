@@ -16,6 +16,11 @@ def cables():
     return render_template("cables.html")
 
 
+@app.get("/about", strict_slashes=False)
+def about():
+    return render_template("about.html")
+
+
 @app.get("/contact", strict_slashes=False)
 def contact():
     return render_template("contact.html")
