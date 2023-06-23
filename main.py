@@ -11,5 +11,10 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/cables", strict_slashes=False)
+def cables():
+    return render_template("cables.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
