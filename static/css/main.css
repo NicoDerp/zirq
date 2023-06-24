@@ -2602,3 +2602,13 @@ section {
 .bi-circular-icon::before {
     content: url("/static/images/climate_friendly.svg");
 }
+
+#videoPopup{
+  width: 75%;
+  margin: 0 auto;
+}
+
+#videoPopup iframe{
+  width: 100%;
+  margin: 0 auto;
+}

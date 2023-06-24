@@ -206,3 +206,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
+$(document).ready(function($) {
+    $('#introductoryVideoLink').magnificPopup({
+        type:'inline',
+        midClick: true
+    });
+});
